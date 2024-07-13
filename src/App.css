@@ -1,0 +1,68 @@
+.maindiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Make sure the div takes full viewport height */
+    flex-direction: column;
+}
+
+.value {
+    height: 180px;
+    width: 200px;
+    border-radius: 20%;
+    background-color: bisque;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black solid 2px;
+}
+
+.btndiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom:-3.2rem;
+}
+
+.resett {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    
+  
+}
+
+.reset-button {
+    width: 180px;
+    border: 3px rgb(47, 28, 19) solid;
+    border-radius: 25px;
+    background-color: bisque;
+    color: rgb(49, 20, 5);
+    padding: 5px;
+    font-weight: bold;
+}
+
+.btns {
+    height: 50px;
+    width: 100px;
+    border: 2px black solid;
+    /* margin: 0 5px; */
+   
+}
+
+.btn1{
+    border-radius: 0px 0px 0px 2rem;
+    background-color: bisque;
+    font-weight: bold;
+
+}
+
+.btn2{
+    border-radius: 0px 0px 2rem 0px;
+    background-color: bisque;
+    font-weight: bold;
+}
